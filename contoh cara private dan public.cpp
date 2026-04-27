@@ -14,4 +14,13 @@ public:
     friend class siswa; // Memberikan akses ke class siswa
 };
 
-class 
+class siswa
+{
+private:
+    int id;
+
+public:
+    void setId(int pId);
+    void displayAll(orang &a);
+};
+
