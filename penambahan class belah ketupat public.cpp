@@ -31,3 +31,13 @@ class BelahKetupat {
 private:
     double d1, d2;
 
+
+public:
+    void inputData() {
+        cout << "Input diagonal 1 belah ketupat: ";
+        cin >> d1;
+        cout << "Input diagonal 2 belah ketupat: ";
+        cin >> d2;
+    }
+
+
