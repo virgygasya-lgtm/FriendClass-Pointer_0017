@@ -24,8 +24,19 @@ public:
         cout << "Keliling layang-layang (belum dihitung)" << endl;
     }
 };
-{
 
+// ================== CLASS BELAH KETUPAT ==================
+class BelahKetupat {
+private:
+    double d1, d2;
+
+public:
+    void inputData() {
+        cout << "Input diagonal 1 belah ketupat: ";
+        cin >> d1;
+        cout << "Input diagonal 2 belah ketupat: ";
+        cin >> d2;
+    }
 
     double hitungLuas() {
         return 0.5 * d1 * d2;
@@ -36,8 +47,6 @@ public:
     }
 };
 
-
-
 // ================== MAIN ==================
 int main() {
     LayangLayang ObjectLayang;
@@ -47,8 +56,6 @@ int main() {
     ObjectLayang.inputData();
     ObjectBelah.inputData();
 
-} 
-{ 
     cout << "\n--- Hasil Luas ---" << endl;
     cout << "Luas Layang-Layang : " << ObjectLayang.hitungLuas() << endl;
     cout << "Luas Belah Ketupat: " << ObjectBelah.hitungLuas() << endl;
@@ -59,5 +66,3 @@ int main() {
 
     return 0;
 }
-
-
