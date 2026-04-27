@@ -17,4 +17,7 @@ int main()
     mahasiswa *mhs = new mahasiswa; 
     mhs->nim = 2;
     mhs->showNim();
-   
+    
+    delete mhs; // Menghapus memori yang dialokasikan
+    return 0;
+}
