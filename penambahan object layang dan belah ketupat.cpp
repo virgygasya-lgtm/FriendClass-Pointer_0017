@@ -38,3 +38,12 @@ public:
 
 
 
+// ================== MAIN ==================
+int main() {
+    LayangLayang ObjectLayang;
+    BelahKetupat ObjectBelah;
+
+}
+
+
+
