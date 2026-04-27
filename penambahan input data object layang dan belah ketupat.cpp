@@ -43,6 +43,10 @@ int main() {
     LayangLayang ObjectLayang;
     BelahKetupat ObjectBelah;
 
+    cout << "=== Input Data ===" << endl;
+    ObjectLayang.inputData();
+    ObjectBelah.inputData();
+
 }
 
 
